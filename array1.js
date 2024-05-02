@@ -90,3 +90,5 @@ console.log(myVar1,myVar2);
 
 let [myVar3,myVar4, ...myVar6]=myArrAY; // rest values are in myVar6
 console.log(myVar6)
+
+
