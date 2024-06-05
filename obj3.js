@@ -51,6 +51,8 @@ console.log(user1);
 console.log(user2);
 console.log(user3);
 
-const [{name:name1}, ,name2]=arr1;
+const [{name:name1},{age:age1} ,name2]=arr1;
+// const [{name:name1}, ,name2]=arr1;
 console.log(name1);
+console.log(age1);
 console.log(name2);

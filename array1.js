@@ -6,7 +6,7 @@ console.log(Datas);
 
 Datas[3]="Aditya Ojha";
 console.log(Datas);
-console.log(Datas[14]); // no negative index
+console.log(Datas[5]); // no negative index
 console.log(typeof Datas);  // obj
 console.log(Array.isArray(Datas));  // number
 

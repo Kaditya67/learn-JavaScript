@@ -16,6 +16,13 @@ for (let key in person) {
     }
 }
 
+for(let value of Object.values(person)){
+    console.log(value);
+}
+
+for(let key of Object.keys(person)){
+    console.log(key);
+}
 
 console.log(Object.keys(person));
 const val=Array.isArray(Object.keys(person));

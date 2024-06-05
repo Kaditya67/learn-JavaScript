@@ -1,18 +1,31 @@
-// callback function
+// // callback function
 
-function add(a,b, callback){    // callback name is convention
-    callback(a,b);
-    return a+b;
+function myfunc2(name){
+    console.log("Inside Func2");
+    console.log(`${name}`);
 }
 
-function sub(a,b){
-    console.log(a-b);
+function myFunc1(name,callback){
+    console.log("Inside Func1");
+    callback(name);
 }
 
-let added=add(5,6,sub);
-console.log(added);
+myFunc1("Aditya",myfunc2);
 
 
+// function add(a,b, callback){    // callback name is convention
+//     callback(a,b);
+//     return a+b;
+// }
+
+// function sub(a,b){
+//     console.log(a-b);
+// }
+
+// let added=add(5,6,sub);
+// console.log(added);
+
+// ######################################
 // function returning function
 
 function sub(a,b){

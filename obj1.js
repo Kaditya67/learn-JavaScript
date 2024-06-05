@@ -1,5 +1,5 @@
 // objs are referenced types ( stored in key value pair )
-
+"use strict";
 let obj1={
     name:"Aditya",
     age:22

@@ -4,14 +4,22 @@ const numbers=[4,5,6,7];
 // passes index and value
 numbers.forEach((num)=>console.log(num*2));
 
+
+
+
+// ##################  IMP ##########
+// numbers.forEach((value, index, array) => {
+    // console.log(value,index,array)
+// })
+
 // Array.forEach(function(num,index){
 //     console.log(index,num);
 // })
 
 const myFunc=(num,index)=>{
-    console.log(index,num);
+    console.log(num,index);
 }
-numbers.forEach(myFunc);
+numbers.forEach(myFunc);        // myFunc needs two arguments, forEach passes arguments dynamically
 
 
 
@@ -30,6 +38,7 @@ users.forEach(function(user,index){
 
 
 // Map method
+// .map((value, index, array) => {})
 const number1=[3,4,5,6,7,8,9];
 
 const square=function(num){
@@ -55,7 +64,7 @@ const username=users.map((user)=>{
 console.log(username);
 
 // filter odd and even numbers
-
+// .filter((value, index, array) => {})
 // filter works with bool true values
 
 const evenNum=number1.filter((num)=>{
@@ -71,11 +80,12 @@ console.log(oddNum);
 
 
 // reduce method
-
+// .reduce((previousValue, currentValue, currentIndex, array) => {}, initialValue)
 // const total=number1.reduce(()=>{});
 
 const total=number1.reduce((accumulator,currentValue)=>{
-    return `${accumulator} + ${currentValue}`; // accumulator+currentValue;
+    console.log(`${accumulator} + ${currentValue}`); // accumulator+currentValue;
+    return accumulator + currentValue; // accumulator+currentValue;
 })
 console.log(total);
 

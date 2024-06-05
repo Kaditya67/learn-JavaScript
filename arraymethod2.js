@@ -26,6 +26,9 @@ const products =[
     {product_id:4,product_name:"watch",price:10000},
 ]
 
+
+console.log(products[0].product_name)
+
 // slice makes clone
 const lowToHigh=products.slice(0).sort((a,b)=>{
     return a.price-b.price;
@@ -61,6 +64,7 @@ const users=[
 const ans1=users.find((user)=>{
     return user.id===3;
 });
+console.log(ans1)
 console.log(ans1.name);
 
 
@@ -73,7 +77,7 @@ let newArr=arr2.every((num)=>{
 
 console.log(newArr);    // False if any one number is not even
 
-// somwe method --> True/False
+// some method --> True/False
 
 let newArr1=arr2.some((num)=>{
     return num%2===0;

@@ -41,7 +41,7 @@ const singHappyBirthday =  function(){
 }
 singHappyBirthday();
 
-// Most used Arrow function
+// Most used Arrow function     // ()=> {}
 
 const singHappyBirthday1 =  ()=>{
     console.log("Happy Birthday to you...");

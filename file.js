@@ -27,7 +27,7 @@ console.log(value*3);
 
 
 // let and const are used to declare variables
-// with 'let' --> you cannot redeclare butn can reassign
+// with 'let' --> you cannot redeclare but can reassign
 // with 'const' --> you cannot redeclare and cannot reassign
 
 const pi=3.14;
