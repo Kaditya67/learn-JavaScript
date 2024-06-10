@@ -78,6 +78,7 @@ let newArr=arr2.every((num)=>{
 console.log(newArr);    // False if any one number is not even
 
 // some method --> True/False
+// .some((value, index, array) => {})
 
 let newArr1=arr2.some((num)=>{
     return num%2===0;
@@ -86,6 +87,7 @@ console.log(newArr1); // True if any one number is even
 
 
 // fill method
+// .fill(target, start, end)
 
 let arr3=[1,2,3,4,5,6,7,8,9,10];
 
