@@ -1,0 +1,26 @@
+// flex has flex-direction which has 4 properties
+// content flows in direction of main axis
+    display: flex;
+    /* default */
+    /* flex-direction: row;      */
+     /* row, row-reverse, column, column-reverse */
+    flex-direction: column;
+
+
+// flex-wrap : items are shited in the cross axis direction
+// default :- nowrap
+// else :- wrap,wrap-reverse
+
+// use flex-direction:column 
+// and use flex-wrap:wrap to do not let the items overflow the container
+
+
+// justify-content --> change the location of content       --> main axis
+// default: flex-start
+// else:- flex-end,center, space-evenly
+// * Most Used:-  space-between, space-around
+
+
+// align-items --> cross axis
+default: stretch
+else:- flex-start,flex-end,center
