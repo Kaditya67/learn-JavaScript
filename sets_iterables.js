@@ -32,4 +32,4 @@ for (const i of setNum) {
 }
 
 //length
-console.log(length)
+console.log(length) ``
